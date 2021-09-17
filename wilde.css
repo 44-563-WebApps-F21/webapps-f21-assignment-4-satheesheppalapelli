@@ -25,3 +25,17 @@ p{
     font-size: medium;
     color: black;
 }
+/* table,
+th,
+td {
+    border: 1px solid black;
+} */
+table { border: dashed 3px blueviolet;
+    border-collapse: separate;}
+    table.collapsing {
+    border: solid 3px;
+    border-collapse: collapse;}
+    td, th {border: solid 1px ;
+    text-align: left;}
+    tr:nth-child(even)
+    {background-color: #e2e2e2;}
