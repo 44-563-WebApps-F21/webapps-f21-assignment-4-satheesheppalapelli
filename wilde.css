@@ -9,7 +9,7 @@ p{
     color: black;
 }
 .stage-direction:hover{
-    background-color: lightcoral;
+    background-color: rgb(240, 226, 226);
     font-size: medium;
     color:rgb(240, 227, 240);
 }
