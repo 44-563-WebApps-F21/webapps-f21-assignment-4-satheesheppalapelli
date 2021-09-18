@@ -67,3 +67,9 @@ td{
     background-color: goldenrod;
     color: #134585;
 }
+img{
+    border-radius: 10px;
+    margin-left: 30px;
+    width:300px;
+    height: 200px;
+}
