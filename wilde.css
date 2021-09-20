@@ -5,6 +5,7 @@
 .act-name{
     font-family:sans-serif;
     color:chocolate;
+    text-shadow: 2px 2px #ff0000;
 }
 .act{
     font-family:sans-serif;
@@ -32,6 +33,7 @@
 }
 .name{
     font-size: medium;
+    text-shadow: 2px 2px #ff0000;
     color: black;
 }
 .lady{
@@ -47,7 +49,7 @@ th,
 td {
     border: 1px solid black;
 } */
-table, th, td {
+ table, th, td {
     border: 3px solid black;
     border-collapse: collapse;
     width: auto;
@@ -57,12 +59,16 @@ table, th, td {
     border-spacing: 5px;
     background-color: whitesmoke;
   }
+tr:nth-child(odd)
+{
+    background-color: #e2e2e2;
+}
 th{
     background-color:lightskyblue;
 }
 td{
     background-color: whitesmoke;
-}
+} 
 .name:hover{
     background-color: goldenrod;
     color: #134585;
